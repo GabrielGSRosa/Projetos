@@ -1,0 +1,80 @@
+* {
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+body {
+    font-family: monospace;
+    background: var(--bg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    font-family: helvetica;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+#button {
+    display: flex;
+    justify-content: right;
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+    cursor: pointer;
+}
+
+#responsivo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn:focus { outline-style: none;}
+
+#button{
+    display: flex;
+    align-items: flex-end;
+}
+
+#msg {
+    font-family: monospace;
+}
+
+.light-theme {
+    display: flex;
+    justify-content: center;
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+:root {
+    --green: #00ff00;
+    --white: #ffffff;
+    --black: #000000;
+}
+
