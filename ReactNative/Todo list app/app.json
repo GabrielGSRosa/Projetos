@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "task-list",
+    "slug": "task-list",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/verdadeiro.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/verdadeiro.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1",
+      "bundleIdentifier": "com.gabrielschoenfelder.tasklist"
+    },
+    "android": {
+      "versionCode": 4,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/verdadeiro.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.gabrielschoenfelder.tasklist"
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#000"
+    },
+    "web": {
+      "favicon": "./assets/verdadeiro.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0172fe30-7880-4770-b67a-35e7c29ac19f"
+      }
+    },
+    "owner": "gabrielschoenfelder"
+  }
+}
