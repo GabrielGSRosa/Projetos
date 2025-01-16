@@ -36,4 +36,5 @@ src/assets: Contém os recursos visuais, como ícones e imagens.
 Persistência de dados para salvar as tarefas mesmo após fechar o app (localStorage).
 Filtros para tarefas já concluídas.
 
-Capturas de Tela
+
+
